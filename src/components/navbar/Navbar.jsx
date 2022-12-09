@@ -10,7 +10,7 @@ import { DarkModeContext } from "../../context/darkModeContext";
 import { useContext } from "react";
 
 const Navbar = () => {
-  const { dispatch } = useContext(DarkModeContext);
+  const { dispatchTheme } = useContext(DarkModeContext);
 
   return (
     <div className="navbar">
@@ -27,7 +27,7 @@ const Navbar = () => {
           <div className="item">
             <DarkModeOutlinedIcon
               className="icon"
-              onClick={() => dispatch({ type: "TOGGLE" })}
+              onClick={() => dispatchTheme({ type: "TOGGLE" })}
             />
           </div>
           <div className="item">
