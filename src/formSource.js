@@ -1,41 +1,41 @@
 export const userInputs = [
     {
-      id: 1,
+      id: "userName",
       label: "Tên tài khoản",
       type: "text",
       placeholder: "Tên tài khoản",
     },
     {
-      id: 2,
+      id: "displayName",
       label: "Họ và tên",
       type: "text",
       placeholder: "Họ và tên",
     },
     {
-      id: 3,
+      id: "email",
       label: "Email",
       type: "mail",
       placeholder: "Email@gmail.com",
     },
     {
-      id: 4,
+      id: "phone",
       label: "Điện thoại",
       type: "text",
       placeholder: "+84 234 567 89",
     },
     {
-      id: 5,
+      id: "password",
       label: "Mật khẩu",
       type: "password",
     },
     {
-      id: 6,
+      id: "address",
       label: "Địa chỉ",
       type: "text",
       placeholder: "Tran Duy Hung, Ha Noi",
     },
     {
-      id: 7,
+      id: "country",
       label: "Quốc gia",
       type: "text",
       placeholder: "Viet Nam",

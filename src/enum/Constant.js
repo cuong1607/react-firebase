@@ -1,6 +1,6 @@
 const Constant = {
     Login: "LOGIN",
-    LOGOUT: "LOGOUT"
+    Logout: "LOGOUT"
 }
 
 export default Constant

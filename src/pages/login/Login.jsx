@@ -1,11 +1,11 @@
-import { Button } from "@mui/material"
-import { useContext, useState } from "react"
-import "./login.scss"
+import { Button } from "@mui/material";
 import { signInWithEmailAndPassword } from "firebase/auth";
-import { auth } from "../../firebase";
+import { useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import Constant from "../../enum/Constant";
 import { AuthContext } from "../../context/AuthContext";
+import Constant from "../../enum/Constant";
+import { auth } from "../../firebase";
+import "./login.scss";
 const Login = () => {
 
   const [error, setError] = useState(false);
